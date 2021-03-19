@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.css';
-import Homepage from './Homepage'
+import Homepage from './component/pages/homepage/Homepage'
 
 class App extends React.Component {
 constructor(){
