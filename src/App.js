@@ -2,6 +2,8 @@ import React from 'react'
 import './App.css';
 import Homepage from './component/pages/homepage/Homepage'
 
+import ShopPage from './component/shop/shoppage'
+
 import {Route, Switch} from 'react-router-dom'
 
 const AboutUs = ()=>{
@@ -17,8 +19,8 @@ constructor(){
       return (        
         <div>
           <Switch>
-          <Route exact = 'true' path= '/' component = {Homepage} />             
-          <Route  path= '/about' component = {AboutUs} />    
+          <Route exact = 'true' path= '/' component = {Homepage} />  
+          <Route  path= '/shop' component = {ShopPage} />  
           </Switch>         
         </div>
       );
